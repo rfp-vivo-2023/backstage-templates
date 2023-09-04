@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: rfp-templates
+spec:
+  targets:
+    - /dotnet/microservice-template.yaml

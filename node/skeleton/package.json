@@ -1,0 +1,14 @@
+{
+  "name": "sysmap-ms-template",
+  "version": "1.0.0",
+  "description": "This is template of coe-tech sysmap",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "COE Tech",
+  "license": "ISC"
+}
