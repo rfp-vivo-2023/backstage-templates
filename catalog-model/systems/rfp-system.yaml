@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: rfp-system
+  description: System of RFP by COE
+  tags:
+    - portal
+spec:
+  owner: squad-coe
+  domain: coe

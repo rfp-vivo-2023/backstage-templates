@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: coe
+  description: The coe team
+spec:
+  type: sub-department
+  profile:
+    displayName: Backstage COE
+    email: coe@sysmap.com.br
+    picture: https://avatars.dicebear.com/api/identicon/coe@sysmap.com.br.svg?background=%23fff&margin=25
+  parent: devops
+  children: [squad-coe]

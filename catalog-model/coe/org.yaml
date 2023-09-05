@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: coe-corp
+  description: The coe-corp organization
+  links:
+    - url: http://www.sysmap.com.br/
+      title: Website
+    - url: https://sysmapsolutions.atlassian.net/wiki/spaces/COETEC/pages
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: COE Corp
+    email: coe@sysmap.com.br
+    picture: https://blog.sysmap.com.br/wp-content/themes/blog-sysmap/img/logo_sysmap.svg
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: coe-groups
+  description: A collection of all coe-corp Groups
+spec:
+  targets:
+    - ./devops-group.yaml
+    - ./coe-group.yaml
+    - ./squad-coe-group.yaml

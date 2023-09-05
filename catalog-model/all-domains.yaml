@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: coe-domains
+  description: A collection of all Backstage domains
+spec:
+  targets:
+    - ./domains/coe-domains.yaml

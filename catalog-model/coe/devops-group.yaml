@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devops
+  description: The devops squad
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: coe-corp
+  children: [coe]
